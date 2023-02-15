@@ -1,0 +1,14 @@
+﻿<Properties StartupConfiguration="{C9180E68-A5A9-0561-1B1F-2DD024B5E2F4}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UserDefined/Scripts/TreasureCollider.cs">
+    <Files>
+      <File FileName="Assets/UserDefined/Scripts/TreasureCollider.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="669fd0a3-9d06-4301-9e67-5fe386af479d" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

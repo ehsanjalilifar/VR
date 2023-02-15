@@ -494,6 +494,7 @@
 "Assets/UserDefined/Scripts/ObstacleLocator.cs"
 "Assets/UserDefined/Scripts/Timer.cs"
 "Assets/UserDefined/Scripts/TreasureCollider.cs"
+"Assets/UserDefined/Scripts/TreasureCounter.cs"
 -langversion:9.0
 
 /deterministic

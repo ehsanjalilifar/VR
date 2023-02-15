@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TreasureCollider : MonoBehaviour
 {
+    public static int count = 0;
+
     [SerializeField] private GameObject ground;
 
     float xRange, zRange;
@@ -19,9 +21,14 @@ public class TreasureCollider : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        count--;
+    }
+
+    private void OnEnable()
+    {
+        count++;
     }
 
     private void OnCollisionEnter(Collision collision)

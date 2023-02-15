@@ -1,11 +1,14 @@
 ﻿<Properties StartupConfiguration="{C9180E68-A5A9-0561-1B1F-2DD024B5E2F4}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UserDefined/Scripts/Timer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UserDefined/Scripts/TreasureCounter.cs">
     <Files>
-      <File FileName="Assets/UserDefined/Scripts/Timer.cs" Line="1" Column="1" />
+      <File FileName="Assets/UserDefined/Scripts/Timer.cs" Line="22" Column="52" />
+      <File FileName="Assets/UserDefined/Scripts/TreasureCollider.cs" Line="32" Column="17" />
+      <File FileName="Assets/UserDefined/Scripts/TreasureCounter.cs" Line="7" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="669fd0a3-9d06-4301-9e67-5fe386af479d" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

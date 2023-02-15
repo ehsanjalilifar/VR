@@ -22,6 +22,11 @@ public class Timer : MonoBehaviour
         float ellapsedTime = Time.time - startTime;
         minutes = (int)(ellapsedTime / 60f);
         seconds = (int)(ellapsedTime % 60f);
-        gameTime.text = "Ellapced Time  " + minutes.ToString("00") + ":" + seconds.ToString("00");
+        gameTime.text = "Elapsed Time  " + minutes.ToString("00") + ":" + seconds.ToString("00");
+    }
+
+    public void ResetTimer()
+    {
+        startTime = Time.time;
     }
 }

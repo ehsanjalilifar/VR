@@ -41,4 +41,11 @@ public class ObstacleLocator : MonoBehaviour
                 transform.position.y,
                 Random.Range(-zRange + 1f, zRange - 1f));
     }
+
+    public void Reset()
+    {
+        gameObject.GetComponent<Rigidbody>().isKinematic = false;
+        AssignRandomPosition();
+        gameObject.GetComponent<Rigidbody>().isKinematic = true;
+    }
 }

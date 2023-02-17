@@ -337,6 +337,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 670244604462168929, guid: 11af4e6732ea74132b9ecb7f94c228d7, type: 3}
   m_PrefabInstance: {fileID: 532961797}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &532961800 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4461347430851979266, guid: 11af4e6732ea74132b9ecb7f94c228d7, type: 3}
+  m_PrefabInstance: {fileID: 532961797}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e531cf5127a4144aecfe87520e0e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &615074850
 GameObject:
   m_ObjectHideFlags: 0
@@ -1106,6 +1117,42 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1553703519}
+        m_TargetAssemblyTypeName: ObstacleLocator, Assembly-CSharp
+        m_MethodName: Reset
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 532961800}
+        m_TargetAssemblyTypeName: ObstacleLocator, Assembly-CSharp
+        m_MethodName: Reset
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2118115063}
+        m_TargetAssemblyTypeName: ObstacleLocator, Assembly-CSharp
+        m_MethodName: Reset
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 505229427}
         m_TargetAssemblyTypeName: TreasureCollider, Assembly-CSharp
         m_MethodName: Reset
@@ -1381,6 +1428,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 670244604462168929, guid: 11af4e6732ea74132b9ecb7f94c228d7, type: 3}
   m_PrefabInstance: {fileID: 1553703516}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1553703519 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4461347430851979266, guid: 11af4e6732ea74132b9ecb7f94c228d7, type: 3}
+  m_PrefabInstance: {fileID: 1553703516}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e531cf5127a4144aecfe87520e0e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1711707691 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1377624978389645980, guid: 9efd6ac903ae9406b9e6171770d91e6a, type: 3}
@@ -1880,3 +1938,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9efd6ac903ae9406b9e6171770d91e6a, type: 3}
+--- !u!114 &2118115063 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4461347430851979266, guid: 11af4e6732ea74132b9ecb7f94c228d7, type: 3}
+  m_PrefabInstance: {fileID: 1350332524}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0e531cf5127a4144aecfe87520e0e55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

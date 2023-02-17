@@ -133,8 +133,8 @@
     <Compile Include="Assets/Oculus/Platform/Scripts/ChallengeCreationType.cs" />
     <Compile Include="Assets/Oculus/Platform/Scripts/UserOptions.cs" />
     <Compile Include="Assets/Oculus/Platform/Scripts/NetSyncConnectionStatus.cs" />
-    <Compile Include="Assets/Oculus/Platform/Samples/NetChat/DataEntry.cs" />
     <Compile Include="Assets/Oculus/Platform/Samples/VrHoops/Scripts/AIPlayer.cs" />
+    <Compile Include="Assets/Oculus/Platform/Samples/NetChat/DataEntry.cs" />
     <Compile Include="Assets/Oculus/Platform/Samples/VrBoardGame/Scripts/GameBoard.cs" />
     <Compile Include="Assets/Oculus/Platform/Scripts/AbuseReportOptions.cs" />
     <Compile Include="Assets/Oculus/Platform/Scripts/PartyMicState.cs" />

@@ -175,8 +175,8 @@
     <Compile Include="Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Surfaces/ClippedPlaneSurface.cs" />
     <Compile Include="Assets/Oculus/Interaction/Runtime/Scripts/Input/OneEuroFilter/OneEuroFilter.cs" />
     <Compile Include="Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Models/HandGrab/HandGrabTarget.cs" />
-    <Compile Include="Assets/Oculus/Interaction/Runtime/Scripts/Input/Controllers/ControllerDataAsset.cs" />
     <Compile Include="Assets/Oculus/Interaction/Runtime/Scripts/Selection/Controllers/ControllerOffset.cs" />
+    <Compile Include="Assets/Oculus/Interaction/Runtime/Scripts/Input/Controllers/ControllerDataAsset.cs" />
     <Compile Include="Assets/Oculus/Interaction/Runtime/Scripts/Interaction/Pointable/PointerInteractable.cs" />
     <Compile Include="Assets/Oculus/Interaction/Runtime/Scripts/Utils/ConeUtils.cs" />
     <Compile Include="Assets/Oculus/Interaction/Runtime/Scripts/Unity/PointableUnityEventWrapper.cs" />

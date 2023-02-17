@@ -16,6 +16,11 @@ public class ObstacleLocator : MonoBehaviour
 
         AssignRandomPosition();
 
+        // Obstacles have normal rigid body by default which is required for the collision detection.
+        // After positining the obstacles, we don't want them to move. So, we make them kinematic rigid body.
+        gameObject.GetComponent<Rigidbody>().isKinematic = true;
+        //gameObject.GetComponent<BoxCollider>().isTrigger = true;
+
     }
 
     private void OnCollisionEnter(Collision collision)

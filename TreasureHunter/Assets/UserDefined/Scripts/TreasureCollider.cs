@@ -20,6 +20,23 @@ public class TreasureCollider : MonoBehaviour
         AssignRandomPosition();
     }
 
+    private void Update()
+    {
+        if(transform.GetComponent<OVRGrabbable>().isGrabbed)
+        {
+            gameObject.transform.position = new Vector3(gameObject.transform.position.x,
+                                                        -5f,
+                                                        gameObject.transform.position.z);
+        }
+
+        if (!transform.GetComponent<OVRGrabbable>().isGrabbed && gameObject.transform.position.y < 0)
+        {
+            gameObject.SetActive(false);
+        }
+
+
+    }
+
     // Update is called once per frame
     private void OnDisable()
     {

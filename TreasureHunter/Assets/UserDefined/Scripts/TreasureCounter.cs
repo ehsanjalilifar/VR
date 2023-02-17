@@ -9,6 +9,16 @@ public class TreasureCounter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        treasureCounter.text = TreasureCollider.count.ToString() + " is remaining";
+        if(TreasureCollider.count > 1)
+        {
+            treasureCounter.text = TreasureCollider.count.ToString() + " treasures are remaining";
+        } else if(TreasureCollider.count == 1)
+        {
+            treasureCounter.text = "Only 1 treasure is left";
+        } else
+        {
+            treasureCounter.text = "No treasures is left";
+        }
+        
     }
 }

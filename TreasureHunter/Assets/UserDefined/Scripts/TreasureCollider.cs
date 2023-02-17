@@ -8,7 +8,7 @@ public class TreasureCollider : MonoBehaviour
 
     [SerializeField] private GameObject ground;
 
-    float xRange, zRange;
+    float xRange, zRange, initialHeight;
 
     // Start is called before the first frame update
     void Start()
@@ -16,17 +16,23 @@ public class TreasureCollider : MonoBehaviour
         xRange = ground.transform.localScale.x / 2.0f;
         zRange = ground.transform.localScale.z / 2.0f;
 
+        initialHeight = gameObject.transform.position.y; // We need this variable to reset the scene (Check the trick for disabling the treasure)
+
         // Randomly assign a position to a treasure.
         AssignRandomPosition();
     }
 
     private void Update()
     {
+        // We want to collect the treasure (disable it) when the treasure is grabbed.
         if(transform.GetComponent<OVRGrabbable>().isGrabbed)
         {
             gameObject.transform.position = new Vector3(gameObject.transform.position.x,
                                                         -5f,
                                                         gameObject.transform.position.z);
+            // We have to do this trick because when the treasure is grabbed and we disable it,
+            // we encounter a bug. The player will not be able to move anymore!
+            // Thus, we hide the treasure first and then we disable it (while the treasure is not grabbed)
         }
 
         if (!transform.GetComponent<OVRGrabbable>().isGrabbed && gameObject.transform.position.y < 0)
@@ -55,12 +61,6 @@ public class TreasureCollider : MonoBehaviour
         {
             AssignRandomPosition();
         }
-
-        // Collect the treasure when the player hits it.
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            // Do somthing ...
-        }
     }
 
     private void AssignRandomPosition()
@@ -69,5 +69,16 @@ public class TreasureCollider : MonoBehaviour
                 Random.Range(-xRange + 1f, xRange - 1f),
                 transform.position.y,
                 Random.Range(-zRange + 1f, zRange - 1f));
+    }
+
+    public void Reset()
+    {
+        if (!gameObject.activeSelf) gameObject.SetActive(true);
+
+        transform.position = new Vector3(
+                Random.Range(-xRange + 1f, xRange - 1f),
+                initialHeight,
+                Random.Range(-zRange + 1f, zRange - 1f));
+        
     }
 }

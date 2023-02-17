@@ -260,6 +260,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4783507252079324706, guid: 9efd6ac903ae9406b9e6171770d91e6a, type: 3}
   m_PrefabInstance: {fileID: 1797238914}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &505229427 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1377624978389645980, guid: 9efd6ac903ae9406b9e6171770d91e6a, type: 3}
+  m_PrefabInstance: {fileID: 1797238914}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0942474f4b6474c957d5c92225d3cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &532961797
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1095,6 +1106,42 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 505229427}
+        m_TargetAssemblyTypeName: TreasureCollider, Assembly-CSharp
+        m_MethodName: Reset
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1724785774}
+        m_TargetAssemblyTypeName: TreasureCollider, Assembly-CSharp
+        m_MethodName: Reset
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1711707691}
+        m_TargetAssemblyTypeName: TreasureCollider, Assembly-CSharp
+        m_MethodName: Reset
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1479364337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1334,6 +1381,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 670244604462168929, guid: 11af4e6732ea74132b9ecb7f94c228d7, type: 3}
   m_PrefabInstance: {fileID: 1553703516}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1711707691 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1377624978389645980, guid: 9efd6ac903ae9406b9e6171770d91e6a, type: 3}
+  m_PrefabInstance: {fileID: 308705051}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0942474f4b6474c957d5c92225d3cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1723754353
 GameObject:
   m_ObjectHideFlags: 0
@@ -1440,6 +1498,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 2.45}
   m_SizeDelta: {x: 1000, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1724785774 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1377624978389645980, guid: 9efd6ac903ae9406b9e6171770d91e6a, type: 3}
+  m_PrefabInstance: {fileID: 1995299777}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f0942474f4b6474c957d5c92225d3cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1797238914
 PrefabInstance:
   m_ObjectHideFlags: 0

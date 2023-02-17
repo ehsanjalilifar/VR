@@ -92,6 +92,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Timer
     methodName: ResetTimer
+  - assembly: Assembly-CSharp
+    fullTypeName: TreasureCollider
+    methodName: Reset
+  - assembly: Assembly-CSharp
+    fullTypeName: TreasureCollider
+    methodName: Reset
+  - assembly: Assembly-CSharp
+    fullTypeName: TreasureCollider
+    methodName: Reset
   sceneClasses:
     Assets/Scenes/SampleScene.unity:
     - Class: 1
@@ -4664,4 +4673,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/ehsanjalilifar/Documents/GitHub/VR/TreasureHunter/Builds/b19.apk
+  playerPath: /Users/ehsanjalilifar/Documents/GitHub/VR/TreasureHunter/Builds/b22.apk

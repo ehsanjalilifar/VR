@@ -82,8 +82,8 @@
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Events/VoiceEvents.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/RingBuffer.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/WitResultUtilities.cs" />
-    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitDynamicEntity.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/WitRequestFactory.cs" />
+    <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitDynamicEntity.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Utilities/GameObjectSearchUtility.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Data/Entities/WitSimpleDynamicEntity.cs" />
     <Compile Include="Assets/Oculus/Voice/Lib/Wit.ai/Scripts/Runtime/Events/EventRegistry.cs" />

@@ -22,6 +22,7 @@ ScriptsOnlyBuild:
     Oculus.VR.dll:
     - OVRCameraRig
     - OVRDebugInfo
+    - OVRGrabbable
     - OVRGrabber
     - OVRHeadsetEmulator
     - OVRManager
@@ -103,6 +104,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3056}
     - Class: 114
       Script: {instanceID: 3196}
+    - Class: 114
+      Script: {instanceID: 4550}
     - Class: 114
       Script: {instanceID: 4752}
     - Class: 114
@@ -4368,7 +4371,13 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: TrackSegment
+  - hash:
+      serializedVersion: 2
+      Hash: 42404ddba837514c0cef10dd4371a969
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TreasureCollider
   platform: 13
   scenePathNames:
   - Assets/Scenes/BaseScene.unity
-  playerPath: /Users/ehsanjalilifar/Documents/GitHub/VR/JumperMan/Builds/b10.apk
+  playerPath: /Users/ehsanjalilifar/Documents/GitHub/VR/JumperMan/Builds/b12.apk

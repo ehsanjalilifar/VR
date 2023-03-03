@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{C6EE190A-6135-1CB5-8B9B-F494DE12928A}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/UserDefined/Scripts/PlatformMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionController.cs">
     <Files>
       <File FileName="Assets/UserDefined/Scripts/PlatformMovement.cs" Line="9" Column="37" />
+      <File FileName="Assets/Oculus/SampleFramework/Core/Locomotion/Scripts/LocomotionController.cs" Line="28" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="80fd7aa5-9d52-4a93-9afc-a9b707c44499" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e001f215-1e75-4814-9bcf-00e74a71dd9f" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

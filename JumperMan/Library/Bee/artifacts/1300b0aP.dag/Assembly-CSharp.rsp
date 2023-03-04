@@ -457,6 +457,7 @@
 "Assets/Oculus/SampleFramework/Usage/TouchPro/Scripts/Ui/UiVectorInspector.cs"
 "Assets/Oculus/Voice/Lib/Wit.ai/AssemblyInfo.cs"
 "Assets/UserDefined/Scripts/PlatformMovement.cs"
+"Assets/UserDefined/Scripts/Player.cs"
 "Assets/UserDefined/Scripts/TreasureCollider.cs"
 -langversion:9.0
 

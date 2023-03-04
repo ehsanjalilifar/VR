@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - OVRTouchSample.Hand
     - OVRTouchSample.HandPose
     - PlatformMovement
+    - Player
     - TeleportAimHandlerParabolic
     - TeleportAimVisualLaser
     - TeleportDestination
@@ -13,6 +14,7 @@ ScriptsOnlyBuild:
     - TeleportOrientationHandlerThumbstick
     - TeleportTargetHandlerPhysical
     - TeleportTransitionInstant
+    - TreasureCollider
     Oculus.Spatializer.dll:
     - ONSPSettings
     Oculus.VR.Editor.dll:
@@ -105,41 +107,45 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3196}
     - Class: 114
-      Script: {instanceID: 4550}
+      Script: {instanceID: 4066}
     - Class: 114
-      Script: {instanceID: 4752}
+      Script: {instanceID: 4552}
     - Class: 114
-      Script: {instanceID: 4962}
+      Script: {instanceID: 4754}
     - Class: 114
-      Script: {instanceID: 5092}
+      Script: {instanceID: 4964}
     - Class: 114
-      Script: {instanceID: 5102}
+      Script: {instanceID: 5094}
     - Class: 114
-      Script: {instanceID: 5246}
+      Script: {instanceID: 5104}
     - Class: 114
-      Script: {instanceID: 5296}
+      Script: {instanceID: 5248}
     - Class: 114
-      Script: {instanceID: 5326}
+      Script: {instanceID: 5298}
     - Class: 114
-      Script: {instanceID: 6104}
+      Script: {instanceID: 5328}
     - Class: 114
-      Script: {instanceID: 6750}
+      Script: {instanceID: 6106}
     - Class: 114
-      Script: {instanceID: 6856}
+      Script: {instanceID: 6752}
     - Class: 114
-      Script: {instanceID: 7886}
+      Script: {instanceID: 6858}
     - Class: 114
-      Script: {instanceID: 8378}
+      Script: {instanceID: 7888}
     - Class: 114
-      Script: {instanceID: 8456}
+      Script: {instanceID: 8380}
     - Class: 114
-      Script: {instanceID: 9066}
+      Script: {instanceID: 8458}
     - Class: 114
-      Script: {instanceID: 9410}
+      Script: {instanceID: 8898}
     - Class: 114
-      Script: {instanceID: 9832}
+      Script: {instanceID: 9070}
     - Class: 114
-      Script: {instanceID: 10626}
+      Script: {instanceID: 9414}
+    - Class: 114
+      Script: {instanceID: 9836}
+    - Class: 114
+      Script: {instanceID: 10630}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1149,6 +1155,12 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction
     className: DistanceGrabInteractor
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player
   - hash:
       serializedVersion: 2
       Hash: 87fee40a7da11fff64dc65a90bf2d534
@@ -3419,6 +3431,12 @@ ScriptsOnlyBuild:
     className: OVRSceneModelLoader
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TreasureCollider
+  - hash:
+      serializedVersion: 2
       Hash: 6a51aeb0493c795ac187b5cc41150ec4
     assemblyName: Oculus.Interaction.dll
     namespaceName: Oculus.Interaction.HandGrab.Visuals
@@ -4371,13 +4389,7 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: TrackSegment
-  - hash:
-      serializedVersion: 2
-      Hash: 42404ddba837514c0cef10dd4371a969
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: TreasureCollider
   platform: 13
   scenePathNames:
   - Assets/Scenes/BaseScene.unity
-  playerPath: /Users/ehsanjalilifar/Documents/GitHub/VR/JumperMan/Builds/b12.apk
+  playerPath: /Users/ehsanjalilifar/Documents/GitHub/VR/JumperMan/Builds/b10.apk

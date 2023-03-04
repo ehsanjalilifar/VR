@@ -15,7 +15,7 @@ ScriptsOnlyBuild:
     - TeleportInputHandlerTouch
     - TeleportOrientationHandlerThumbstick
     - TeleportTargetHandlerPhysical
-    - TeleportTransitionBlink
+    - TeleportTransitionInstant
     - TreasureCollider
     Oculus.Spatializer.dll:
     - ONSPSettings
@@ -115,6 +115,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 54
       Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
     - Class: 74
@@ -204,11 +206,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 8458}
     - Class: 114
-      Script: {instanceID: 8756}
-    - Class: 114
       Script: {instanceID: 8898}
     - Class: 114
       Script: {instanceID: 9070}
+    - Class: 114
+      Script: {instanceID: 9414}
     - Class: 114
       Script: {instanceID: 9836}
     - Class: 114
@@ -230,6 +232,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 205
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -4671,4 +4675,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/BaseScene.unity
-  playerPath: /Users/ehsanjalilifar/Documents/GitHub/VR/JumperMan/Builds/b21.apk
+  playerPath: /Users/ehsanjalilifar/Documents/GitHub/VR/JumperMan/Builds/b23.apk
